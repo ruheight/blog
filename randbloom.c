@@ -1,6 +1,6 @@
 /*
 Random hashes and bloom filters
-https://herm1tvx.blogspot.com/2025/03/revisiting-api-hashing-random-hashes.html
+https://herm1tvx.blogspot.com/2025/03/random-hashes.html
 (x) 2025, herm1t.vx@gmail.com
 
 To do something useful, a virus or a beacon needs system functions. The obvious
