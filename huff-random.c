@@ -1,3 +1,4 @@
+/* herm1tvx.blogspot.com/2025/04/compression-entropy-and-polymorphism.html */
 #include <stdint.h>
 #include <stdlib.h>
 #include <strings.h>

@@ -1,6 +1,7 @@
 /*
 Reverse compression to lower the entropy
 (x) 2025, herm1t.vx@gmail.com
+herm1tvx.blogspot.com/2025/04/compression-entropy-and-polymorphism.html
 
 For a long time, antivirus programs have used heuristics to look for encrypted
 or compressed fragments in files. They can be used to, for example, enable
