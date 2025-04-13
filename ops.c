@@ -56,7 +56,11 @@ int main(int argc, char **argv)
 		if (hs.modrm_mod != 3 || len != 2)
 			continue;
 
-		/* ALU and MOV */
+		/* ALU and MOV
+		00ttt00t 11xxxyyy	; ttt r1,r2 (ADD,ADC,AND,OR,SUB,SBB,XOR,CMP)
+		00ttt01t 11yyyxxx
+		10001001 11xxxyyy	; mov r1,r2
+		10001011 11yyyxxx	*/
 		if ((m[i] & 0xC4) == 0x00 || (m[i] & 0xFC) == 0x88) {
 			unsigned b = (m[i] >> 1) & 1;
 			if (argc > 1) {
