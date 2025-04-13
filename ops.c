@@ -1,3 +1,4 @@
+/* https://herm1tvx.blogspot.com/2025/04/xz-backdoor-hiding-key-in-opcodes.html */
 /* x86 only */
 #include <stdio.h>
 #include <stdint.h>
