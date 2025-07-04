@@ -1,3 +1,4 @@
+/* https://herm1tvx.blogspot.com/2025/07/multiplicative-pride.html */
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
