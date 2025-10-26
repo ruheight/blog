@@ -1,3 +1,6 @@
+/* Searching for non-exported symbols
+https://herm1tvx.blogspot.com/2025/10/searching-for-non-exported-symbols.html
+*/
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
