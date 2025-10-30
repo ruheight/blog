@@ -1,4 +1,4 @@
-/* Mirotik hash, herm1t.vx@gmail.com, 2024
+/* Mikrotik hash, herm1t.vx@gmail.com, 2024
 
 Curve25519(SHA256(salt | SHA256(user ":" password)), { 9 })
 
@@ -13,7 +13,7 @@ Curve25519(SHA256(salt | SHA256(user ":" password)), { 9 })
 
 #include "curve25519-donna.c"
 /*
-Mikrotik removed cofactor cleaning and MSB-bit set
+For unknown reasons Mikrotik removed cofactor cleaning and MSB-bit set
 
 --- curve25519-donna.c.orig	2025-10-30 12:41:34.592965814 +0200
 +++ curve25519-donna.c	2025-10-30 12:41:53.292499763 +0200
