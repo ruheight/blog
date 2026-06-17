@@ -32,9 +32,8 @@ uint64_t modinv(uint64_t a, unsigned n)
 
 unsigned mod(int a, unsigned n)
 {
-	while (a < n)
-		a += n;
-	return a % n;
+    int r = a % (int)n;
+    return (r < 0) ? (r + n) : r;
 }
 
 int main(int argc, char **argv)
