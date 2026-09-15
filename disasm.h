@@ -1,5 +1,6 @@
 /*
- * AI Generated
+ * AI Generated based on
+ * https://herm1tvx.blogspot.com/2025/04/disassembly-bitmasks-and-boolean-logic.html
  *
  * disasm.h - x86_64 instruction decoder without lookup tables
  *
